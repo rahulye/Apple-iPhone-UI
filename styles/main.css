@@ -1,0 +1,90 @@
+main
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+
+
+/* Hero Section */
+
+.hero-section
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1500px;
+  width: 100%;
+  max-height: 10000px;
+  background-color: lightcyan;
+  position: relative;
+}
+
+.welcome-container
+{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 20px;
+  max-width: 1200px;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.welcome-header
+{
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: end;
+  background-color: lightgoldenrodyellow;
+  padding-left: 30px;
+}
+
+.welcome-header-descrp
+{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-color: lightgreen;
+}
+
+.welcome-header-text
+{
+  font-size: clamp(24px,2vw,80px);
+  font-weight: 600;
+}
+
+.welcome-header-descrp-text
+{
+  font-size: clamp(8px,1vw,20px);
+  font-weight: 600;
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
+
+.welcome-video-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: rgb(6, 170, 170);
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.welcome-video
+{
+  width: 100%;
+  max-width: 1400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+
