@@ -244,7 +244,7 @@
   color: black;
   padding: 5px;
   margin: 5px;
-  font-size: clamp(7px,1vw,11px);
+  font-size: clamp(7px,1vw,12px);
 }
 
 .hot-deal-wrapper 
@@ -255,5 +255,5 @@
 
 .section-buy-link
 {
-  color: rgb(24, 82, 152)  
+  color: rgb(24, 82, 152);  
 }
