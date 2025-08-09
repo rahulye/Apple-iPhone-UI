@@ -8,7 +8,7 @@ main
   flex-direction: column;
 }
 
-/* Hero Section */
+                                          /* Hero Section */
 
 .hero-section 
 {
@@ -63,7 +63,7 @@ main
 }
 
 
-              /* Sectioon GetKnow iPhone  */
+                                          /* Sectioon GetKnow iPhone  */
 
             
 
@@ -88,31 +88,37 @@ main
 {
   font-size: clamp(24px, 3vw, 50px);
   font-weight: 600;
+  padding-left: 20px;
 }
 
 .gallery-image-container
 {
   margin-top: 20px;
   width: 100%;
+  margin-left: 20px;
 }
 
 .gallery-images-row 
 {
-  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   background-color: lightgray;
+  gap: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  flex-wrap: nowrap;
 }
 
 .gallery-image
 {
   max-width: 400px;
-  max-height: 5000px;
-  height: 100%;
-  width: 100%;
+  height: 800px;
+  width: auto;
   border-radius: 30px;
+  object-fit: cover;
 }
 
 
