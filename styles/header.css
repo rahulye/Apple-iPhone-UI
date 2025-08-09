@@ -119,10 +119,9 @@
     display: none;
   }
 
-  .chapter-navbar-containers, .gallery-image-container
+  .chapter-navbar-containers
   {
     flex-wrap: nowrap;
-    margin-left: 20px;
   }
 }
 
@@ -178,6 +177,8 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .chapter-navbar-containers
@@ -239,6 +240,7 @@
   align-items: center;
   text-align: center;
   background-color: rgb(245, 245, 247);
+  width: 100%;
 }
 
 .hot-deal-text
