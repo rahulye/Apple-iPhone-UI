@@ -55,7 +55,7 @@ main
 
 .welcome-video
 {
-  border-radius: 60px;
+  border-radius: 25px;
   width: 100%;
   object-fit: cover;
 }
@@ -70,15 +70,21 @@ main
   display: flex;
   flex-direction: column;
   align-items:start;
-  max-width: 1700px;
+  max-width: 2200px;
   width: 100%;
   padding-right: 20px;
   margin-top: 60px;
-  background-color: lightcyan;
+  margin-bottom: 80px;
 }
 
 .gallery-header-container
 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 23 0px;
+  max-width: 1400px;
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -95,17 +101,17 @@ main
   width: 100%;
   margin-top: 20px;
   padding-left: 30px;
-  padding-right: 30px;
+  padding-right: 10px;
 }
 
 .gallery-images-row 
 {
+  max-width: 2400px;
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: lightgray;
   gap: 10px;
   overflow-x: auto;
   overflow-y: hidden;
@@ -167,45 +173,67 @@ main
 
                                               /* Explore line up */
 
-
 .product-line-up
 {
-  max-width: 1700px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: lightgreen;
+  padding-top: 80px;
+  background-color: #f5f5f7;
 }
 
 .product-line-up-header
 {
+   max-width: 1700px;
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: end;
   justify-content: space-between;
-  background-color: lightpink;
+  margin-bottom: 40px;
+}
+
+.product-line-up-header h2
+{
+  font-size: clamp(24px, 3vw, 50px);
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+.product-line-up-header div
+{
+  font-size: clamp(8px, 3vw, 12px);
+  font-weight: 400;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 5px;
+  color: rgb(0,113,227);
 }
 
 .product-info-container
 {
   display: flex;
   flex-direction: row;
-  max-width: 1600px;
+  max-width: 1420px;
   width: 100%;
-  background-color: lightsteelblue;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .product-card-containers
 {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 250px;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
-  background-color: lightsalmon;
+  overflow-y: hidden;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  scroll-behavior: smooth;
 }
 
 .product-card
@@ -217,11 +245,15 @@ main
   width: 100%;
   text-align: center;
   font-size: 10px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: 340px;
 }
 
 .product-image-container
 {
   height: 200px;
+  margin-bottom: 15px;
 }
 
 .product-card-image
@@ -233,10 +265,12 @@ main
 
 .item-color-choice
 {
-  width: 60px;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  margin-bottom: 15px;
+  gap: 5px;
 }
 
 .item-color-choice li
@@ -244,8 +278,41 @@ main
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: black;
   flex-shrink: 0; 
+}
+
+.item-color-choice .desert-titanium
+{
+  background-color: rgb(191 164 143);
+}
+
+.item-color-choice .natural-titanium
+{
+  background-color: rgb(194 188 178);
+}
+
+.item-color-choice .white-titanium
+{
+  background-color: rgb(247 246 242);
+}
+
+.item-color-choice .black-titanium
+{
+  background-color: rgb(60 60 61);
+}
+
+
+.product-info-container h3
+{
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.product-card-price-info 
+{
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 
 .card-more-info-row
@@ -256,4 +323,106 @@ main
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-size: 8px;
+  margin-bottom: 20px;
+}
+
+.card-more-info-row-more 
+{
+  border-style: none;
+  background-color: rgb(0,113,227);
+  padding: 8px 12px;
+  border-radius: 20px;
+  color: white;
+}
+
+.card-more-info-row-buy
+{
+  color: rgb(0,113,227);
+}
+
+.divider
+{
+  border: 1px solid rgba(115, 107, 107, 0.353);
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.apple-intelligence-icon-container
+{
+  display: inline-block;
+  max-width: 20px;
+  max-height: 20px;
+  margin-bottom: 20px;
+}
+
+.apple-intelligence-icon
+{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.apple-intelligence-icon-info li
+{
+  font-size: 10px;
+  text-size-adjust: none;
+  line-height: 23px;
+}
+
+.product-tile-plus-null
+{
+  font-size: 21px;
+  font-weight: 600px;
+  line-height: 30px;
+}
+
+.phone-stats-container
+{
+  margin-bottom: 30px;
+}
+
+.item-color-choice .ultramarine
+{
+  background-color: rgb(148 165 235);
+}
+
+.item-color-choice .teal
+{
+  background-color: rgb(171 207 205);
+}
+
+.item-color-choice .pink
+{
+  background-color: rgb(237 168 213);
+}
+
+.item-color-choice .white
+{
+  background-color: rgb(238, 236, 236);
+}
+
+.item-color-choice .black
+{
+  background-color: rgb(53 57 59);
+}
+
+.item-color-choice .yellow
+{
+  background-color: rgb(236 230 198);
+}
+
+.item-color-choice .green
+{
+  background-color: rgb(207 217 201);
+}
+
+.item-color-choice .blue
+{
+  background-color: rgb(213 221 224);
+}
+
+.product-card-containers::-webkit-scrollbar
+{
+  display: none;
 }
