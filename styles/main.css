@@ -745,7 +745,7 @@ main
 
 .significant-info-card-para-text
 {
-  font-size: clamp(8px,1.5vw,10px);
+  font-size: clamp(10px,1vw,12px);
   line-height: 20px;
   margin-bottom: 20px;
 }
