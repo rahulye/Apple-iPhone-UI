@@ -347,6 +347,8 @@ main
   border: 1px solid rgba(115, 107, 107, 0.353);
   width: 100%;
   margin-bottom: 20px;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 .apple-intelligence-icon-container
@@ -698,7 +700,8 @@ main
   max-width: 1700px;
   width: 100%;
   padding-right: 30px;
-  padding-left: 30px;
+  padding-left: 25px;
+  padding-bottom: 150px;
 }      
 
 .significant-header-container
@@ -706,7 +709,7 @@ main
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: end;
   margin-bottom: 50px;
 }
@@ -715,7 +718,6 @@ main
 {
   font-size: clamp(24px, 3vw, 50px);
   font-weight: 600;
-  padding-left: 20px;
   padding-right: 5px;
 }
 
@@ -818,3 +820,92 @@ main
     object-fit: cover;
   }
 }
+
+
+                                                /* Iphone Index Group */
+
+
+.iphone-index-container
+{
+  width: 100%;
+  padding-top: 150px;
+  background-color: #fafafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 150px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.iphone-index-header-container
+{
+  margin-bottom: 50px;
+  max-width:1700px;
+  width: 100%;
+}
+
+.iphone-index-info-wrapper
+{
+  display: flex;
+  flex-direction: row;
+  max-width:1700px;
+  width: 100%;
+  padding-left: 15px;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.iphone-index-info-group
+{
+  max-width: 300px;
+  width: 100%;
+}
+
+.iphone-index-header-text
+{
+  font-size: clamp(24px, 3vw, 50px);
+  font-weight: 600;
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+.iphone-index-info-header1
+{
+  font-size: clamp(16px,3vw,20px);
+  font-weight: 400;
+  margin-bottom: 15px;
+  line-height: 36px;
+  color: gray;
+}
+
+.iphone-index-info-header2
+{
+  font-size: clamp(16px,3vw,20px);
+  font-weight: 500;
+  margin-bottom: 15px;
+  line-height: 36px;
+  color: black;
+}
+
+
+.iphone-index-info-container1
+{
+  font-size: clamp(22px,3vw,24px);
+  font-weight: 500;
+  margin-bottom: 30px;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.iphone-index-info-container2
+{
+  font-size: clamp(16px,3vw,20px);
+  font-weight: 500;
+  margin-bottom: 15px;
+  line-height: 36px;
+  cursor: pointer;
+}
+
+

@@ -1,0 +1,199 @@
+                                                  /* footer */
+
+.footer-container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 22px;
+  font-size: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(245, 245, 247);
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}     
+
+.footer-purchase-container
+{
+  max-width: 1000px;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.56);
+}
+
+.footer-purchase-container-info
+{
+  padding-bottom: 10px;
+}
+
+.footer-purchase-container-info li
+{
+  margin-bottom: 10px;
+}
+
+
+.footer-purchase-container ol 
+{
+  padding-left: 25px;
+}
+
+.footer-purchase-container ol li
+{
+  list-style: decimal;
+}
+
+.footer-text-hyperlink
+{
+  color: black;
+  text-decoration: underline;
+}
+
+
+                                          /* iphone container*/
+                                        
+.footer-iphone-container
+{
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}  
+
+.footer-iphone-header-container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.navbar-icon-container
+{
+  margin-top: 0px;
+  padding-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0.7px;
+}
+
+.footer-iphone-header-text-container
+{
+  padding-left: 0px;
+  padding-top: 0.4px;
+}
+
+.right-arrow
+{
+  padding: 0px;
+  font-size: 15px;
+}
+
+.footer-iphone-cards-container
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  line-height: 24px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.745);
+}
+
+.footer-iphone-card-header
+{
+  margin-bottom: 10px;
+  font-size: clamp(12px,1.5vw,14px);
+  font-weight: 500;
+}
+
+.footer-iphone-card-list
+{
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+
+                                                      /* footer end info */
+
+.footer-end-info-container
+{
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.56);
+  margin-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+}  
+
+.footer-end-info-links-container
+{
+  margin-bottom: 15px;
+}
+
+.footer-end-info-credits-hyperlink
+{
+  text-decoration: underline;
+  color: rgba(0, 72, 255, 0.804);
+}
+
+.footer-end-info-wrapper
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-end-info-copyright
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  text-align: start;
+}
+
+.footer-end-info-list-container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.footer-end-info-list-container li
+{
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.footer-end-info-list-container 
+{
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 0;
+}
+
+.footer-end-info-list-container li 
+{
+  margin-left: 10px;
+  cursor: pointer;
+  position: relative;
+  padding-left: 10px;
+}
+
+.footer-end-info-list-container li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: rgba(0, 0, 0, 0.606);
+}
