@@ -213,6 +213,7 @@ main
   padding-right: 40px;
   padding-left: 5px;
   color: rgb(0,113,227);
+  cursor: pointer;
 }
 
 .product-info-container
@@ -335,11 +336,13 @@ main
   padding: 8px 12px;
   border-radius: 20px;
   color: white;
+  cursor: pointer;
 }
 
 .card-more-info-row-buy
 {
   color: rgb(0,113,227);
+  cursor: pointer;
 }
 
 .divider
@@ -555,6 +558,7 @@ main
   justify-content: start;
   align-items: center;
   border-radius: 100%;
+  cursor: pointer;
 }
 
 .add-symbol
@@ -608,7 +612,10 @@ main
   padding-right: 40px;
   padding-left: 5px;
   color: rgb(0,113,227);
+  cursor: pointer;
+
 }
+
 
 .essential-card-wrapper
 {
@@ -782,6 +789,8 @@ main
   margin-bottom: 15px; 
   color: gray;
   font-style: normal;
+  cursor: pointer;
+
 }
 
 .significant-info-card-image-container

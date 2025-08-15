@@ -11,7 +11,7 @@
   padding-right: 30px;
   background-color: rgb(245, 245, 247);
   width: 100%;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }     
 
@@ -47,6 +47,8 @@
 {
   color: black;
   text-decoration: underline;
+  cursor: pointer;
+
 }
 
 
@@ -84,7 +86,7 @@
 .footer-iphone-header-text-container
 {
   padding-left: 0px;
-  padding-top: 0.4px;
+  padding-top: 1.5px;
 }
 
 .right-arrow
@@ -141,6 +143,8 @@
 {
   text-decoration: underline;
   color: rgba(0, 72, 255, 0.804);
+  cursor: pointer;
+
 }
 
 .footer-end-info-wrapper
