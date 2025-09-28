@@ -4,7 +4,7 @@ A clean clone of the Apple iPhone product page built using **HTML** and **CSS**.
 ## Live Demo
 Deployed in Vercel
 
-🔗 [Check it out here] (https://apple-iphone-clone-rahul.vercel.app)
+🔗 [Check it out here](https://apple-iphone-clone-rahul.vercel.app)
 
 * Why I Built This <br/>
 To practice building real-world website structures with only HTML and CSS.<br/>
